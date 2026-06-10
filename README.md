@@ -1,25 +1,57 @@
-# Add a Blazor Linear Gauge to a Blazor Server App
+# Blazor Linear Gauge Getting Started
 
-This sample explains about how to create and configure the Syncfusion [Blazor Linear Gauge](https://www.syncfusion.com/blazor-components/blazor-linear-gauge) in a Blazor Server App. You will learn how to add a simple Blazor Linear Gauge to a Blazor Server App. You will also see how to set a specific axis pointer value as well as how to customize an axis line height and width. Finally, you will learn how to add multiple axis ranges.
+A comprehensive example demonstrating how to create and configure the [Blazor Linear Gauge](https://www.syncfusion.com/blazor-components/blazor-linear-gauge) component in a Blazor Server application.
+
+## Overview
+
+This sample project showcases the core functionality of the Blazor Linear Gauge component within a modern Blazor Server application. Linear gauges are ideal for displaying single values within a defined range and are commonly used for metrics like temperature, pressure, speed, or progress indicators.
+
+The example includes a fully functional temperature gauge that demonstrates:
+
+- **Axis Configuration**: Setting minimum and maximum values with custom label formatting
+- **Pointer Management**: Displaying a pointer at a specific value  
+- **Range Visualization**: Using multiple color-coded ranges to represent different states
+- **Interactive Layout**: Responsive gauge rendering within a Blazor component
+
+## Features
+
+1. **Add Interactivity**: Bind the pointer value to user input or real-time data
+2. **Integrate Real Data**: Connect to APIs or databases for live metrics
+3. **Create Dashboards**: Combine multiple gauges for comprehensive monitoring
+4. **Explore Other Gauges**: Try Circular Gauge or Radial Gauge components
+5. **Customize Styling**: Adjust colors, fonts, and sizes to match your brand
+6. **Add Animation**: Implement smooth transitions for value changes
 
 ## Prerequisites
 
-* Visual Studio 2022 or later
-* Visual Studio Code
+* [.NET SDK 10.0](https://dotnet.microsoft.com/en-us/download/dotnet/10.0) or later
+* [Visual Studio 2022](https://visualstudio.microsoft.com/vs/) or later
+* [Visual Studio Code](https://code.visualstudio.com/)
 
-## How to run the project
+## Getting Started
 
-1. Clone or download this repository to a location in your system.
-2. Open the solution file using the Visual Studio or Visual Studio code.
-3. Restore the NuGet packages by rebuilding the solution or run `dotnet restore`.
-4. Build the project to ensure there are no compilation errors.
-5. Run the project.
+### Clone the Repository
 
-Optional CLI Commands:
+```bash
+git clone https://github.com/SyncfusionExamples/blazor-linear-gauge-getting-started-example.git
+cd blazor-linear-gauge-getting-started-example
+```
 
-```powershell
+### Run with Visual Studio
+
+1. Open the solution file using Visual Studio 2022 or later.
+2. Restore the NuGet packages by rebuilding the solution.
+3. Build the project to ensure there are no compilation errors.
+4. Run the project.
+
+### Run with .NET CLI
+
+```bash
+# Restore dependencies
 dotnet restore
-dotnet build
+
+# Run the project
+dotnet run
 ```
 
 ## References
