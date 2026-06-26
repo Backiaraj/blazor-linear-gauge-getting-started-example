@@ -15,12 +15,12 @@ The example includes a fully functional temperature gauge that demonstrates:
 
 ## Features
 
-1. **Add Interactivity**: Bind the pointer value to user input or real-time data
-2. **Integrate Real Data**: Connect to APIs or databases for live metrics
-3. **Create Dashboards**: Combine multiple gauges for comprehensive monitoring
-4. **Explore Other Gauges**: Try Circular Gauge or Radial Gauge components
-5. **Customize Styling**: Adjust colors, fonts, and sizes to match your brand
-6. **Add Animation**: Implement smooth transitions for value changes
+- **Add Interactivity**: Bind the pointer value to user input or real-time data
+- **Integrate Real Data**: Connect to APIs or databases for live metrics
+- **Create Dashboards**: Combine multiple gauges for comprehensive monitoring
+- **Explore Other Gauges**: Try Circular Gauge or Radial Gauge components
+- **Customize Styling**: Adjust colors, fonts, and sizes to match your brand
+- **Add Animation**: Implement smooth transitions for value changes
 
 ## Prerequisites
 
